@@ -1,0 +1,376 @@
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(2, 2, 2, 0.945);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 14px;}
+  }
+
+
+  .zoom:hover{
+    transform: scale(1.2);
+  }
+
+  h6{
+    font-family: Consolas;
+    
+  }
+  .consola{
+    font-family: consolas;
+  }
+
+  .h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  @media screen and (max-width: 600px) {
+    .card:hover{
+      transform: scale(1);
+    }
+  
+  }
+
+  .font-rale {
+    font-family: "Raleway";
+  }
+.font-size-10 {
+    font-size: 10px;
+  }
+.font-size-12{
+    font-size: 12px;
+  }
+.font-rubik {
+    font-family: "Rubik";   
+   
+}
+
+.darkpinc{
+  color: rgb(55, 18, 80);
+}
+
+.nextsuucess{
+  color: rgb(22, 65, 6);
+}
+
+.imgSize{
+  height: 200px;
+  width: auto;
+}
+
+.imgSize:hover{
+  transform: scale(1.05);
+}
+.zoomweathermain:hover{
+  transform: scale(1.05);;
+}
+
+
+
+a {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus{
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+}
+
+body{
+  background-color: #F4F6F7;
+}
+
+#wrapper {
+  background-color: #28688C;
+  box-shadow: 1px 5px 25px 3px #444;
+  border-radius: 10px;
+  /* margin: 100px auto; */
+  max-width: 820px;
+  padding: 0px;
+  color: white;  
+
+}
+
+#current-weather{
+  padding: 15px;
+}
+
+#mainTemperature{
+  font-size: 5.5em; 
+  line-height: 0.7;
+}
+
+#tempDescription {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.day-weather-box {
+  border: 1px solid #28688C;
+  background-color: #2E7FA1;
+  border-radius: 5px;
+  height: 7em;
+}
+
+.day-weather-box p{
+  margin-bottom: 0;
+}
+
+.side-weather-info {
+  padding: 0px 10px;
+}
+
+.day-weather-inner-box {
+  display: inline-flex;
+  margin: 14px auto;
+  padding: 0px 5px;
+}
+
+.forecast-main {
+  padding: 0px 0px 0px 30px;
+}
+
+.forecast-icon {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.modal-body p{
+  color: #333;
+}
+
+.high-temperature{
+  font-size:xx-small;
+}
+.low-temperature{
+  font-size: xx-small;
+}
+
+@media screen and (max-width: 580px) {
+  
+  .main-temp{
+    text-align: center;
+    margin-left: 10px;
+  }
+  .high-temperature{
+    font-size:12px;
+  }
+  .low-temperature{
+    font-size: 12px;
+  }
+  .text-center{
+    margin-left: 10px !important;
+  }
+  .zoomweathermain{
+    margin-left: 50px;
+  }
+  .zoomweathermain:hover{
+    transform: scale(1.005);;
+  }
+}
+
+.testcolor{
+  color:#000000fa !important;
+}
+
+
+
+/* ************************************************************** */
+.box {
+  border: 1px solid rgb(53, 35, 35);
+   width: 500px;
+  padding: 40px;
+  position: static;
+  color: white;
+  background:rgb(41, 33, 33); 
+
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+input[type="email"],
+input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+form h2 {
+  font-family: Garamond;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500px;
+  letter-spacing: 25px;
+  text-align:center;
+  text-shadow:chocolate;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  width: 300px;
+  border-color: #2ecc71;
+}
+
+input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #2ecc71;
+}
+
+
+.forgot {
+  text-decoration: underline;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+  background-color: #BD3518;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+  color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  transform: rotate(360deg);
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #fff;
+  transition: all 0.8s;
+  transition: all 0.8s;
+}
+.verticle-line{
+  border-right: 2px solid white;
+  display:block;
+  height: 450px;
+  width: 1px;
+  float: right;
+  position:initial;
+}
+
+
+.error{
+  color: red;
+}
+
+
+.table-row{
+  background-color: #2E7FA1;
+  box-shadow: 1px 5px 25px 3px #444;
+}
+
+.table-row-zoom:hover{
+  transform: scale(1.05);
+  background-color: #2E7FA1;
+  box-shadow: 1px 5px 25px 3px #444;
+  border-radius: 20px;
+  color: white;
+}
